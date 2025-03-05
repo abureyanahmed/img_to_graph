@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graph from image</title>
+</head>
+<body>
+
+    <canvas id="myCanvas" width="500" height="500" style="border:1px solid #000000;"></canvas>
+    <br>
+    <button id="scaleUp">Scale Up</button>
+    <button id="scaleDown">Scale Down</button>
+    <button id="showNodes" onclick="drawRedCircles(coordinate_list)">Show nodes</button>
+    <button id="hideNodes" onclick="drawImage()">Hide nodes</button>
+    <button id="sendListButton">Save nodes</button>
+    <button id="getCoordinatesBtn">Load nodes</button>
+
+    <p id="coordinates"></p>
+    <p id="original_coordinates"></p>
+
+    <script>
+        // Get the canvas and its context
+        const canvas = document.getElementById('myCanvas');
+        const ctx = canvas.getContext('2d');
+        const coordinatesDisplay = document.getElementById('coordinates');
+        const orgCoordinatesDisplay = document.getElementById('original_coordinates');
+
+        var coordinate_list = []
+
+        // Create a new image object
+        const img = new Image();
+
+        // Set the image source (path to the image)
+        img.src = 'majorization_revisited.png'; // Replace with your image file
+
+        let imageX = 0; // Initial X position of the image
+        let imageY = 0; // Initial Y position of the image
+        let isDragging = false; // Flag to check if we are dragging
+        let offsetX, offsetY; // Offsets to store the initial click position relative to the image
+        let startX, startY; // Initial mouse position when the mouse button is pressed
+        let threshold = 5; // Distance threshold to differentiate click vs drag
+        let imageWidth = img.width; // Initial width of the image
+        let imageHeight = img.height; // Initial height of the image
+        let scaleFactor = 1;
+
+        // Store the initial image position and size
+        const initialImageX = imageX;
+        const initialImageY = imageY;
+        const initialImageWidth = imageWidth;
+        const initialImageHeight = imageHeight;
+
+        // Load the image once it's fully loaded
+        img.onload = function() {
+            drawImage(); // Draw the image initially
+        };
+
+        // Function to draw the image at the current position
+        function drawImage() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height); // Clear the canvas before redrawing
+            ctx.drawImage(img, imageX, imageY, imageWidth, imageHeight); // Draw the image at the updated position
+        }
+
+        // Mouse down event to start dragging
+        canvas.addEventListener('mousedown', function(event) {
+            const rect = canvas.getBoundingClientRect();
+            startX = event.clientX; // Get initial mouse position
+            startY = event.clientY;
+            // Check if the mouse click is inside the image
+            if (event.clientX >= imageX && event.clientX <= imageX + img.width &&
+                event.clientY >= imageY && event.clientY <= imageY + img.height) {
+                isDragging = true; // Start dragging
+                offsetX = event.clientX - imageX; // Calculate the offset inside the image
+                offsetY = event.clientY - imageY; // Calculate the offset inside the image
+            }
+        });
+
+        // Mouse move event to drag the image
+        canvas.addEventListener('mousemove', function(event) {
+            if (isDragging) {
+                imageX = event.clientX - offsetX; // Update the X position of the image
+                imageY = event.clientY - offsetY; // Update the Y position of the image
+                drawImage(); // Redraw the image at the new position
+            }
+        });
+
+        // Mouse up event to stop dragging
+        canvas.addEventListener('mouseup', function(event) {
+            isDragging = false; // Stop dragging
+
+            const endX = event.clientX;
+            const endY = event.clientY;
+
+            const distanceMoved = Math.sqrt(Math.pow(endX - startX, 2) + Math.pow(endY - startY, 2));
+
+            // If the distance is small, it's a click; otherwise, it's a drag
+            if (distanceMoved <= threshold) {
+                const rect = canvas.getBoundingClientRect();
+
+                // Calculate the coordinates of the mouse click relative to the canvas
+                const x = endX - rect.left;
+                const y = endY - rect.top;
+
+                // Display the coordinates
+                coordinatesDisplay.textContent = `X: ${x}, Y: ${y}`;
+
+                const coordinates = getOriginalCoordinates(event);
+                orgCoordinatesDisplay.textContent = `Original Coordinates: X: ${coordinates.x.toFixed(2)}, Y: ${coordinates.y.toFixed(2)}`;
+                coordinate_list.push(coordinates)
+        
+            }
+        });
+
+        // Mouse out event in case the mouse leaves the canvas while dragging
+        canvas.addEventListener('mouseout', function() {
+            isDragging = false; // Stop dragging
+        });
+
+        // Event listener for scaling up the image
+        document.getElementById('scaleUp').addEventListener('click', function() {
+            scaleFactor += 0.1; // Increase the scale factor
+            imageWidth = img.width * scaleFactor; // Update the image width based on the scale factor
+            imageHeight = img.height * scaleFactor; // Update the image height based on the scale factor
+            drawImage(); // Redraw the image with the new size
+        });
+
+        // Event listener for scaling down the image
+        document.getElementById('scaleDown').addEventListener('click', function() {
+            if (scaleFactor > 0.1) { // Prevent scaling down below a minimum size
+                scaleFactor -= 0.1; // Decrease the scale factor
+                imageWidth = img.width * scaleFactor; // Update the image width based on the scale factor
+                imageHeight = img.height * scaleFactor; // Update the image height based on the scale factor
+                drawImage(); // Redraw the image with the new size
+            }
+        });
+
+        // Function to get the coordinates relative to the initial (original) image position
+        function getOriginalCoordinates(event) {
+            const rect = canvas.getBoundingClientRect();
+            const mouseX = event.clientX - rect.left;
+            const mouseY = event.clientY - rect.top;
+
+            // Calculate the coordinates relative to the original image size and position
+            const relativeX = (mouseX - imageX) / scaleFactor;
+            const relativeY = (mouseY - imageY) / scaleFactor;
+
+            return { x: relativeX, y: relativeY };
+        }
+
+        // Function to get the coordinates after current translation and scaling, based on original coordinates
+        function getTransformedCoordinates(coord) {
+            originalX = coord.x
+            originalY = coord.y
+            // Apply scaling and translation to the original coordinates
+            const transformedX = imageX + (originalX * scaleFactor);
+            const transformedY = imageY + (originalY * scaleFactor);
+            
+            return { x: transformedX, y: transformedY };
+        }
+
+        function drawRedCircles(coordinatesList) {
+            // Loop through the list of coordinates
+            coordinatesList.forEach(coord => {
+                coord = getTransformedCoordinates(coord)
+                // Draw a small red circle at each coordinate
+                ctx.beginPath();
+                ctx.arc(coord.x, coord.y, 5, 0, 2 * Math.PI); // Radius 5 for small circles
+                ctx.fillStyle = 'red'; // Set fill color to red
+                ctx.fill(); // Fill the circle
+                ctx.stroke(); // Optionally add a stroke for the circle's border
+            });
+        }
+
+        const sendListButton = document.getElementById('sendListButton');
+
+        sendListButton.addEventListener('click', function() {
+
+            // Send the list to the server via a POST request
+            fetch('/send-list', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json' // Set content type to JSON
+                },
+                body: JSON.stringify({ coordinates: coordinate_list }) // Convert list to JSON string
+            })
+            .then(response => response.json()) // Parse the response as JSON
+            .then(data => {
+                console.log('Server response:', data);
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        });
+
+
+        document.getElementById('getCoordinatesBtn').addEventListener('click', function() {
+            // Send a request to the server to get the coordinates
+            fetch('http://localhost:8080/get-coordinates')
+                .then(response => response.json())
+                .then(data => {
+                    // Handle the list of coordinates
+                    console.log('Received Coordinates:', data.coordinates);
+                    coordinate_list = data.coordinates;
+                })
+                .catch(error => {
+                    console.error('Error fetching coordinates:', error);
+                });
+        });
+    </script>
+</body>
+</html>
