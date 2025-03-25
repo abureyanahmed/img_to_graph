@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find edges</title>
+</head>
+<body>
+
+<h3>Input a Number to Modify Colors in the Image</h3>
+<input type="number" id="threshold" placeholder="Enter a threshold number" />
+<input type="file" id="fileInput" accept="image/png" />
+<input type="file" id="textFileInput" accept=".txt" />
+<canvas id="canvas" style="display:none;"></canvas>
+
+<script>
+
+    var vertices = []
+
+    function createBinary2DList(data, width, height) {
+        const result = []; // The resulting 2D list
+
+        // Iterate through the data array and create rows of the 2D list
+        for (let y = 0; y < height; y++) {
+            const row = []; // This will store the current row
+            for (let x = 0; x < width; x++) {
+                const index = (y * width + x) * 4; // Get the index for the current pixel in the data array
+                const r = data[index];     // Red value
+                const g = data[index + 1]; // Green value
+                const b = data[index + 2]; // Blue value
+
+                // If the pixel is black (r, g, b are all 0), append 0, otherwise append 1
+                row.push(r === 0 && g === 0 && b === 0 ? 0 : 1);
+            }
+            result.push(row); // Add the row to the 2D list
+        }
+
+        return result; // Return the 2D binary list
+    }
+
+    function getLinePoints(x1, y1, x2, y2) {
+        const points = [];
+        let dx = Math.abs(x2 - x1);
+        let dy = Math.abs(y2 - y1);
+        let sx = x1 < x2 ? 1 : -1;
+        let sy = y1 < y2 ? 1 : -1;
+        let err = dx - dy;
+
+        while (true) {
+            points.push([x1, y1]);  // Store the current point on the line
+
+            // If we reached the destination, break the loop
+            if (x1 === x2 && y1 === y2) {
+                points.push([x2, y2]); // Ensure the last point is added
+                break;
+            }
+
+            let e2 = err * 2;
+            if (e2 > -dy) {
+                err -= dy;
+                x1 += sx;
+            }
+            if (e2 < dx) {
+                err += dx;
+                y1 += sy;
+            }
+
+            //console.log(x1, y1)
+        }
+
+        return points;
+    }
+
+
+    function checkLinesBetweenObjects(objects, binary2DList) {
+        const result = [];
+        
+        // Iterate through every pair of objects
+        for (let i = 0; i < objects.length; i++) {
+            console.log(i)
+            for (let j = i + 1; j < objects.length; j++) {
+                const o1 = objects[i];
+                const o2 = objects[j];
+                //alert(o1.centerI + ',' + o1.centerJ + ',' + o2.centerI + ',' + o2.centerJ)
+                
+                // Get the points of the line between o1 and o2
+                const linePoints = getLinePoints(Math.round(o1.centerI), Math.round(o1.centerJ), Math.round(o2.centerI), Math.round(o2.centerJ));
+                
+                // Check if all points on the line are 0 in the 2D binary list
+                const allZero = linePoints.every(([x, y]) => {
+                    // Ensure we stay within the bounds of the 2D list
+                    if (x >= 0 && x < binary2DList.length && y >= 0 && y < binary2DList[x].length) {
+                        return binary2DList[x][y] === 0;
+                    }
+                    return false;  // Out-of-bounds points are not considered
+                });
+
+                // If all points are 0, add the indices to the result
+                if (allZero) {
+                    result.push([i, j]);
+                }
+            }
+        }
+
+        return result;
+    }
+
+
+    // Handle image file input
+    document.getElementById('fileInput').addEventListener('change', function(event) {
+        const file = event.target.files[0];  // Get the selected file
+
+        if (file) {
+            const reader = new FileReader();  // Create a new FileReader instance
+
+            // Define the onload event handler for FileReader
+            reader.onload = function(e) {
+                const img = new Image();  // Create a new Image object
+
+                // Define the onload event handler for the Image object
+                img.onload = function() {
+                    const canvas = document.getElementById('canvas');
+                    const ctx = canvas.getContext('2d');
+
+                    // Set the canvas size to match the image size
+                    canvas.width = img.width;
+                    canvas.height = img.height;
+
+                    // Draw the image onto the canvas
+                    ctx.drawImage(img, 0, 0);
+
+                    // Get the pixel data from the canvas
+                    const imageData = ctx.getImageData(0, 0, img.width, img.height);
+                    const data = imageData.data;  // This contains the RGBA values for all pixels
+
+                    // Get the input number (threshold) from the user
+                    const threshold = document.getElementById('threshold').value;
+
+                    // Loop through each pixel and modify R, G, B values based on threshold
+                    for (let i = 0; i < data.length; i += 4) {
+                        const r = data[i];       // Red component
+                        const g = data[i + 1];   // Green component
+                        const b = data[i + 2];   // Blue component
+
+                        // Modify R, G, and B values based on threshold
+                        data[i] = r < threshold ? 0 : 255;       // Modify Red
+                        data[i + 1] = g < threshold ? 0 : 255;   // Modify Green
+                        data[i + 2] = b < threshold ? 0 : 255;   // Modify Blue
+                    }
+
+                    const binary2DList = createBinary2DList(data, img.width, img.height);
+
+                    // Log the resulting 2D binary list
+                    console.log(binary2DList);
+
+                    var edges = checkLinesBetweenObjects(vertices, binary2DList)
+                    console.log('Number of edges', edges.length)
+
+                    function exportJson(list, filename = 'data.json') {
+                        // Convert the list to a JSON string
+                        const jsonString = JSON.stringify(list, null, 2);  // 'null' and '2' make the output pretty-printed
+                        
+                        // Create a Blob from the JSON string
+                        const blob = new Blob([jsonString], { type: 'application/json' });
+                        
+                        // Create a temporary link element to trigger the download
+                        const link = document.createElement('a');
+                        
+                        // Create an object URL for the Blob
+                        const url = URL.createObjectURL(blob);
+                        
+                        // Set the download attribute with the filename
+                        link.href = url;
+                        link.download = filename;
+                        
+                        // Programmatically click the link to trigger the download
+                        link.click();
+                        
+                        // Revoke the object URL after the download starts
+                        URL.revokeObjectURL(url);
+                    }
+
+                    exportJson(edges)
+
+                    // Put the modified image data back to the canvas
+                    ctx.putImageData(imageData, 0, 0);
+
+                    // Redraw the image on the screen
+                    const modifiedImage = canvas.toDataURL();
+                    const imgElement = new Image();
+                    imgElement.src = modifiedImage;
+                    document.body.appendChild(imgElement);
+                };
+
+                // Set the img src to the base64-encoded data URL from FileReader
+                img.src = e.target.result;
+            };
+
+            // Start reading the file as a data URL
+            reader.readAsDataURL(file);
+        }
+    });
+
+    // Handle text file input
+    document.getElementById('textFileInput').addEventListener('change', function(event) {
+        const file = event.target.files[0];  // Get the selected file
+
+        if (file) {
+            const reader = new FileReader();  // Create a new FileReader instance
+
+            // Define the onload event handler for FileReader
+            reader.onload = function(e) {
+                const fileContent = e.target.result;  // The content of the file
+
+                // Print the file content to the console
+                //console.log(fileContent);
+
+                function parseJsonFromText(text) {
+                    try {
+                        // Try to parse the text as JSON
+                        const jsonObject = JSON.parse(text);
+                        return jsonObject;
+                    } catch (error) {
+                        // If parsing fails, log an error and return null
+                        console.error("Invalid JSON format:", error);
+                        return null;
+                    }
+                }
+
+                vertices = parseJsonFromText(fileContent)
+                console.log(vertices)
+
+            };
+
+            // Start reading the file as text
+            reader.readAsText(file);
+        }
+    });
+
+</script>
+
+</body>
+</html>

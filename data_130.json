@@ -1,0 +1,3878 @@
+[
+  {
+    "centerI": 7,
+    "centerJ": 310
+  },
+  {
+    "centerI": 26,
+    "centerJ": 309
+  },
+  {
+    "centerI": 42,
+    "centerJ": 343.5
+  },
+  {
+    "centerI": 47,
+    "centerJ": 306
+  },
+  {
+    "centerI": 57,
+    "centerJ": 380
+  },
+  {
+    "centerI": 61,
+    "centerJ": 362
+  },
+  {
+    "centerI": 64,
+    "centerJ": 340
+  },
+  {
+    "centerI": 65,
+    "centerJ": 237.5
+  },
+  {
+    "centerI": 67,
+    "centerJ": 308
+  },
+  {
+    "centerI": 67.5,
+    "centerJ": 316
+  },
+  {
+    "centerI": 67,
+    "centerJ": 409
+  },
+  {
+    "centerI": 70,
+    "centerJ": 400
+  },
+  {
+    "centerI": 71,
+    "centerJ": 350
+  },
+  {
+    "centerI": 74,
+    "centerJ": 333
+  },
+  {
+    "centerI": 75,
+    "centerJ": 212
+  },
+  {
+    "centerI": 75,
+    "centerJ": 421
+  },
+  {
+    "centerI": 77,
+    "centerJ": 322
+  },
+  {
+    "centerI": 79,
+    "centerJ": 299
+  },
+  {
+    "centerI": 79.5,
+    "centerJ": 304.5
+  },
+  {
+    "centerI": 80,
+    "centerJ": 369.5
+  },
+  {
+    "centerI": 81,
+    "centerJ": 380
+  },
+  {
+    "centerI": 83,
+    "centerJ": 248
+  },
+  {
+    "centerI": 87.5,
+    "centerJ": 357
+  },
+  {
+    "centerI": 89,
+    "centerJ": 398
+  },
+  {
+    "centerI": 89.5,
+    "centerJ": 230
+  },
+  {
+    "centerI": 90.5,
+    "centerJ": 337.5
+  },
+  {
+    "centerI": 91,
+    "centerJ": 351.5
+  },
+  {
+    "centerI": 92.5,
+    "centerJ": 252
+  },
+  {
+    "centerI": 93.5,
+    "centerJ": 317.5
+  },
+  {
+    "centerI": 93.5,
+    "centerJ": 428
+  },
+  {
+    "centerI": 97,
+    "centerJ": 219.5
+  },
+  {
+    "centerI": 98.5,
+    "centerJ": 412
+  },
+  {
+    "centerI": 101.5,
+    "centerJ": 374
+  },
+  {
+    "centerI": 104,
+    "centerJ": 248.5
+  },
+  {
+    "centerI": 104,
+    "centerJ": 368
+  },
+  {
+    "centerI": 104,
+    "centerJ": 414
+  },
+  {
+    "centerI": 104.5,
+    "centerJ": 345.5
+  },
+  {
+    "centerI": 105,
+    "centerJ": 406
+  },
+  {
+    "centerI": 106.5,
+    "centerJ": 420.5
+  },
+  {
+    "centerI": 107.5,
+    "centerJ": 353
+  },
+  {
+    "centerI": 106,
+    "centerJ": 388
+  },
+  {
+    "centerI": 106.5,
+    "centerJ": 382
+  },
+  {
+    "centerI": 107.5,
+    "centerJ": 439
+  },
+  {
+    "centerI": 108,
+    "centerJ": 452
+  },
+  {
+    "centerI": 109,
+    "centerJ": 339
+  },
+  {
+    "centerI": 112,
+    "centerJ": 314
+  },
+  {
+    "centerI": 112,
+    "centerJ": 397.5
+  },
+  {
+    "centerI": 113,
+    "centerJ": 240
+  },
+  {
+    "centerI": 116.5,
+    "centerJ": 407
+  },
+  {
+    "centerI": 119,
+    "centerJ": 305
+  },
+  {
+    "centerI": 119,
+    "centerJ": 466
+  },
+  {
+    "centerI": 122,
+    "centerJ": 299.5
+  },
+  {
+    "centerI": 124,
+    "centerJ": 352
+  },
+  {
+    "centerI": 125,
+    "centerJ": 284.5
+  },
+  {
+    "centerI": 126,
+    "centerJ": 182.5
+  },
+  {
+    "centerI": 126.5,
+    "centerJ": 256.5
+  },
+  {
+    "centerI": 127,
+    "centerJ": 332
+  },
+  {
+    "centerI": 127,
+    "centerJ": 337
+  },
+  {
+    "centerI": 127,
+    "centerJ": 419
+  },
+  {
+    "centerI": 127.5,
+    "centerJ": 299.5
+  },
+  {
+    "centerI": 129.5,
+    "centerJ": 270
+  },
+  {
+    "centerI": 130,
+    "centerJ": 445
+  },
+  {
+    "centerI": 130,
+    "centerJ": 449
+  },
+  {
+    "centerI": 130.5,
+    "centerJ": 238
+  },
+  {
+    "centerI": 130.5,
+    "centerJ": 274.5
+  },
+  {
+    "centerI": 134,
+    "centerJ": 173.5
+  },
+  {
+    "centerI": 135,
+    "centerJ": 399.5
+  },
+  {
+    "centerI": 136.5,
+    "centerJ": 260.5
+  },
+  {
+    "centerI": 137.5,
+    "centerJ": 386.5
+  },
+  {
+    "centerI": 140,
+    "centerJ": 205.5
+  },
+  {
+    "centerI": 141.5,
+    "centerJ": 367
+  },
+  {
+    "centerI": 140,
+    "centerJ": 375
+  },
+  {
+    "centerI": 140,
+    "centerJ": 381.5
+  },
+  {
+    "centerI": 140.5,
+    "centerJ": 401.5
+  },
+  {
+    "centerI": 140,
+    "centerJ": 426
+  },
+  {
+    "centerI": 144.5,
+    "centerJ": 429.5
+  },
+  {
+    "centerI": 143.5,
+    "centerJ": 360
+  },
+  {
+    "centerI": 144.5,
+    "centerJ": 196.5
+  },
+  {
+    "centerI": 146,
+    "centerJ": 274
+  },
+  {
+    "centerI": 146.5,
+    "centerJ": 349.5
+  },
+  {
+    "centerI": 148.5,
+    "centerJ": 415
+  },
+  {
+    "centerI": 149,
+    "centerJ": 245
+  },
+  {
+    "centerI": 149,
+    "centerJ": 250.5
+  },
+  {
+    "centerI": 150.5,
+    "centerJ": 423.5
+  },
+  {
+    "centerI": 152,
+    "centerJ": 261
+  },
+  {
+    "centerI": 152,
+    "centerJ": 400.5
+  },
+  {
+    "centerI": 154.5,
+    "centerJ": 385
+  },
+  {
+    "centerI": 153.5,
+    "centerJ": 447
+  },
+  {
+    "centerI": 153.5,
+    "centerJ": 453
+  },
+  {
+    "centerI": 154.5,
+    "centerJ": 231
+  },
+  {
+    "centerI": 155,
+    "centerJ": 429
+  },
+  {
+    "centerI": 156,
+    "centerJ": 305
+  },
+  {
+    "centerI": 157,
+    "centerJ": 134.5
+  },
+  {
+    "centerI": 157,
+    "centerJ": 348
+  },
+  {
+    "centerI": 157,
+    "centerJ": 399.5
+  },
+  {
+    "centerI": 158,
+    "centerJ": 186
+  },
+  {
+    "centerI": 157.5,
+    "centerJ": 200
+  },
+  {
+    "centerI": 157.5,
+    "centerJ": 363
+  },
+  {
+    "centerI": 158,
+    "centerJ": 455.5
+  },
+  {
+    "centerI": 159,
+    "centerJ": 295.5
+  },
+  {
+    "centerI": 160,
+    "centerJ": 333
+  },
+  {
+    "centerI": 160.5,
+    "centerJ": 222
+  },
+  {
+    "centerI": 161.5,
+    "centerJ": 280.5
+  },
+  {
+    "centerI": 161,
+    "centerJ": 328
+  },
+  {
+    "centerI": 161,
+    "centerJ": 416.5
+  },
+  {
+    "centerI": 162,
+    "centerJ": 269
+  },
+  {
+    "centerI": 163,
+    "centerJ": 188
+  },
+  {
+    "centerI": 163,
+    "centerJ": 382
+  },
+  {
+    "centerI": 164,
+    "centerJ": 127
+  },
+  {
+    "centerI": 164.5,
+    "centerJ": 181
+  },
+  {
+    "centerI": 165,
+    "centerJ": 237
+  },
+  {
+    "centerI": 165,
+    "centerJ": 244
+  },
+  {
+    "centerI": 165,
+    "centerJ": 252
+  },
+  {
+    "centerI": 167,
+    "centerJ": 392
+  },
+  {
+    "centerI": 169,
+    "centerJ": 177.5
+  },
+  {
+    "centerI": 168.5,
+    "centerJ": 221
+  },
+  {
+    "centerI": 169,
+    "centerJ": 270
+  },
+  {
+    "centerI": 172,
+    "centerJ": 233
+  },
+  {
+    "centerI": 175,
+    "centerJ": 211
+  },
+  {
+    "centerI": 175,
+    "centerJ": 220
+  },
+  {
+    "centerI": 177.5,
+    "centerJ": 355
+  },
+  {
+    "centerI": 181.5,
+    "centerJ": 340.5
+  },
+  {
+    "centerI": 181,
+    "centerJ": 349
+  },
+  {
+    "centerI": 182,
+    "centerJ": 175
+  },
+  {
+    "centerI": 183,
+    "centerJ": 359.5
+  },
+  {
+    "centerI": 184,
+    "centerJ": 167
+  },
+  {
+    "centerI": 184,
+    "centerJ": 199.5
+  },
+  {
+    "centerI": 186,
+    "centerJ": 153.5
+  },
+  {
+    "centerI": 186,
+    "centerJ": 352
+  },
+  {
+    "centerI": 187,
+    "centerJ": 143.5
+  },
+  {
+    "centerI": 186.5,
+    "centerJ": 548
+  },
+  {
+    "centerI": 187.5,
+    "centerJ": 177.5
+  },
+  {
+    "centerI": 188.5,
+    "centerJ": 296
+  },
+  {
+    "centerI": 189,
+    "centerJ": 345.5
+  },
+  {
+    "centerI": 189,
+    "centerJ": 402
+  },
+  {
+    "centerI": 190,
+    "centerJ": 121.5
+  },
+  {
+    "centerI": 189.5,
+    "centerJ": 567
+  },
+  {
+    "centerI": 191.5,
+    "centerJ": 262
+  },
+  {
+    "centerI": 192,
+    "centerJ": 312
+  },
+  {
+    "centerI": 192,
+    "centerJ": 337
+  },
+  {
+    "centerI": 191.5,
+    "centerJ": 412
+  },
+  {
+    "centerI": 192.5,
+    "centerJ": 591
+  },
+  {
+    "centerI": 194,
+    "centerJ": 242
+  },
+  {
+    "centerI": 194.5,
+    "centerJ": 224
+  },
+  {
+    "centerI": 195,
+    "centerJ": 321
+  },
+  {
+    "centerI": 195,
+    "centerJ": 349
+  },
+  {
+    "centerI": 194.5,
+    "centerJ": 429
+  },
+  {
+    "centerI": 195.5,
+    "centerJ": 618
+  },
+  {
+    "centerI": 197,
+    "centerJ": 190.5
+  },
+  {
+    "centerI": 198,
+    "centerJ": 294.5
+  },
+  {
+    "centerI": 199.5,
+    "centerJ": 362.5
+  },
+  {
+    "centerI": 198,
+    "centerJ": 503
+  },
+  {
+    "centerI": 198,
+    "centerJ": 646
+  },
+  {
+    "centerI": 200.5,
+    "centerJ": 368
+  },
+  {
+    "centerI": 201,
+    "centerJ": 271
+  },
+  {
+    "centerI": 201,
+    "centerJ": 279
+  },
+  {
+    "centerI": 201,
+    "centerJ": 284
+  },
+  {
+    "centerI": 201,
+    "centerJ": 337
+  },
+  {
+    "centerI": 202.5,
+    "centerJ": 349
+  },
+  {
+    "centerI": 201,
+    "centerJ": 356
+  },
+  {
+    "centerI": 201,
+    "centerJ": 377.5
+  },
+  {
+    "centerI": 202.5,
+    "centerJ": 386.5
+  },
+  {
+    "centerI": 202.5,
+    "centerJ": 82
+  },
+  {
+    "centerI": 203.5,
+    "centerJ": 312.5
+  },
+  {
+    "centerI": 203.5,
+    "centerJ": 105.5
+  },
+  {
+    "centerI": 204,
+    "centerJ": 242
+  },
+  {
+    "centerI": 204,
+    "centerJ": 263
+  },
+  {
+    "centerI": 204,
+    "centerJ": 328
+  },
+  {
+    "centerI": 204,
+    "centerJ": 343
+  },
+  {
+    "centerI": 204,
+    "centerJ": 396
+  },
+  {
+    "centerI": 207,
+    "centerJ": 234
+  },
+  {
+    "centerI": 207,
+    "centerJ": 245
+  },
+  {
+    "centerI": 207,
+    "centerJ": 280.5
+  },
+  {
+    "centerI": 206.5,
+    "centerJ": 299.5
+  },
+  {
+    "centerI": 207,
+    "centerJ": 319
+  },
+  {
+    "centerI": 207.5,
+    "centerJ": 136.5
+  },
+  {
+    "centerI": 209,
+    "centerJ": 333
+  },
+  {
+    "centerI": 209.5,
+    "centerJ": 263
+  },
+  {
+    "centerI": 209.5,
+    "centerJ": 347
+  },
+  {
+    "centerI": 209.5,
+    "centerJ": 516
+  },
+  {
+    "centerI": 211,
+    "centerJ": 535
+  },
+  {
+    "centerI": 213,
+    "centerJ": 158
+  },
+  {
+    "centerI": 212.5,
+    "centerJ": 307
+  },
+  {
+    "centerI": 212.5,
+    "centerJ": 479
+  },
+  {
+    "centerI": 213.5,
+    "centerJ": 560
+  },
+  {
+    "centerI": 213.5,
+    "centerJ": 565
+  },
+  {
+    "centerI": 216,
+    "centerJ": 128
+  },
+  {
+    "centerI": 215.5,
+    "centerJ": 449
+  },
+  {
+    "centerI": 217,
+    "centerJ": 106
+  },
+  {
+    "centerI": 217,
+    "centerJ": 464
+  },
+  {
+    "centerI": 218,
+    "centerJ": 470
+  },
+  {
+    "centerI": 218.5,
+    "centerJ": 139
+  },
+  {
+    "centerI": 219,
+    "centerJ": 501
+  },
+  {
+    "centerI": 218.5,
+    "centerJ": 587
+  },
+  {
+    "centerI": 220,
+    "centerJ": 100
+  },
+  {
+    "centerI": 220,
+    "centerJ": 539
+  },
+  {
+    "centerI": 222,
+    "centerJ": 478
+  },
+  {
+    "centerI": 222,
+    "centerJ": 513.5
+  },
+  {
+    "centerI": 221.5,
+    "centerJ": 606.5
+  },
+  {
+    "centerI": 223,
+    "centerJ": 134
+  },
+  {
+    "centerI": 223,
+    "centerJ": 531
+  },
+  {
+    "centerI": 223,
+    "centerJ": 565
+  },
+  {
+    "centerI": 223,
+    "centerJ": 570
+  },
+  {
+    "centerI": 224,
+    "centerJ": 359
+  },
+  {
+    "centerI": 225,
+    "centerJ": 492
+  },
+  {
+    "centerI": 225,
+    "centerJ": 546
+  },
+  {
+    "centerI": 227,
+    "centerJ": 348
+  },
+  {
+    "centerI": 226.5,
+    "centerJ": 458
+  },
+  {
+    "centerI": 228,
+    "centerJ": 403
+  },
+  {
+    "centerI": 228,
+    "centerJ": 524
+  },
+  {
+    "centerI": 229,
+    "centerJ": 479
+  },
+  {
+    "centerI": 230,
+    "centerJ": 236
+  },
+  {
+    "centerI": 231,
+    "centerJ": 558.5
+  },
+  {
+    "centerI": 233,
+    "centerJ": 241
+  },
+  {
+    "centerI": 233,
+    "centerJ": 245
+  },
+  {
+    "centerI": 236,
+    "centerJ": 146
+  },
+  {
+    "centerI": 236,
+    "centerJ": 259.5
+  },
+  {
+    "centerI": 237,
+    "centerJ": 457
+  },
+  {
+    "centerI": 237.5,
+    "centerJ": 467
+  },
+  {
+    "centerI": 238.5,
+    "centerJ": 220
+  },
+  {
+    "centerI": 239,
+    "centerJ": 419
+  },
+  {
+    "centerI": 240,
+    "centerJ": 231
+  },
+  {
+    "centerI": 240,
+    "centerJ": 442
+  },
+  {
+    "centerI": 240,
+    "centerJ": 482
+  },
+  {
+    "centerI": 241,
+    "centerJ": 497.5
+  },
+  {
+    "centerI": 240.5,
+    "centerJ": 507
+  },
+  {
+    "centerI": 241.5,
+    "centerJ": 190
+  },
+  {
+    "centerI": 241.5,
+    "centerJ": 291
+  },
+  {
+    "centerI": 243,
+    "centerJ": 469
+  },
+  {
+    "centerI": 244,
+    "centerJ": 167
+  },
+  {
+    "centerI": 244,
+    "centerJ": 273
+  },
+  {
+    "centerI": 244.5,
+    "centerJ": 221
+  },
+  {
+    "centerI": 245,
+    "centerJ": 285
+  },
+  {
+    "centerI": 246,
+    "centerJ": 429
+  },
+  {
+    "centerI": 246,
+    "centerJ": 482.5
+  },
+  {
+    "centerI": 246,
+    "centerJ": 500
+  },
+  {
+    "centerI": 247.5,
+    "centerJ": 142
+  },
+  {
+    "centerI": 247,
+    "centerJ": 157
+  },
+  {
+    "centerI": 247.5,
+    "centerJ": 262
+  },
+  {
+    "centerI": 248,
+    "centerJ": 268
+  },
+  {
+    "centerI": 248.5,
+    "centerJ": 307
+  },
+  {
+    "centerI": 249,
+    "centerJ": 357.5
+  },
+  {
+    "centerI": 249,
+    "centerJ": 439
+  },
+  {
+    "centerI": 249,
+    "centerJ": 531
+  },
+  {
+    "centerI": 248.5,
+    "centerJ": 617.5
+  },
+  {
+    "centerI": 250,
+    "centerJ": 128
+  },
+  {
+    "centerI": 250,
+    "centerJ": 232
+  },
+  {
+    "centerI": 250,
+    "centerJ": 366
+  },
+  {
+    "centerI": 252,
+    "centerJ": 500
+  },
+  {
+    "centerI": 252,
+    "centerJ": 224
+  },
+  {
+    "centerI": 252,
+    "centerJ": 303
+  },
+  {
+    "centerI": 252,
+    "centerJ": 432
+  },
+  {
+    "centerI": 251.5,
+    "centerJ": 551
+  },
+  {
+    "centerI": 251.5,
+    "centerJ": 559.5
+  },
+  {
+    "centerI": 253,
+    "centerJ": 184.5
+  },
+  {
+    "centerI": 253,
+    "centerJ": 370
+  },
+  {
+    "centerI": 253,
+    "centerJ": 388.5
+  },
+  {
+    "centerI": 254.5,
+    "centerJ": 523.5
+  },
+  {
+    "centerI": 254,
+    "centerJ": 311
+  },
+  {
+    "centerI": 254,
+    "centerJ": 444
+  },
+  {
+    "centerI": 255,
+    "centerJ": 322
+  },
+  {
+    "centerI": 254.5,
+    "centerJ": 590.5
+  },
+  {
+    "centerI": 259,
+    "centerJ": 213.5
+  },
+  {
+    "centerI": 256,
+    "centerJ": 262
+  },
+  {
+    "centerI": 256,
+    "centerJ": 382
+  },
+  {
+    "centerI": 257.5,
+    "centerJ": 394.5
+  },
+  {
+    "centerI": 257,
+    "centerJ": 480.5
+  },
+  {
+    "centerI": 257,
+    "centerJ": 287
+  },
+  {
+    "centerI": 257,
+    "centerJ": 291
+  },
+  {
+    "centerI": 257,
+    "centerJ": 467
+  },
+  {
+    "centerI": 257,
+    "centerJ": 488.5
+  },
+  {
+    "centerI": 256.5,
+    "centerJ": 529
+  },
+  {
+    "centerI": 259,
+    "centerJ": 252.5
+  },
+  {
+    "centerI": 258,
+    "centerJ": 298
+  },
+  {
+    "centerI": 260.5,
+    "centerJ": 406.5
+  },
+  {
+    "centerI": 260.5,
+    "centerJ": 418.5
+  },
+  {
+    "centerI": 258.5,
+    "centerJ": 544
+  },
+  {
+    "centerI": 260.5,
+    "centerJ": 263
+  },
+  {
+    "centerI": 261,
+    "centerJ": 276
+  },
+  {
+    "centerI": 261,
+    "centerJ": 363.5
+  },
+  {
+    "centerI": 261,
+    "centerJ": 513.5
+  },
+  {
+    "centerI": 262.5,
+    "centerJ": 224.5
+  },
+  {
+    "centerI": 262.5,
+    "centerJ": 245
+  },
+  {
+    "centerI": 262,
+    "centerJ": 379
+  },
+  {
+    "centerI": 262,
+    "centerJ": 452
+  },
+  {
+    "centerI": 262,
+    "centerJ": 572.5
+  },
+  {
+    "centerI": 262,
+    "centerJ": 692
+  },
+  {
+    "centerI": 263.5,
+    "centerJ": 294
+  },
+  {
+    "centerI": 264,
+    "centerJ": 546
+  },
+  {
+    "centerI": 265,
+    "centerJ": 259
+  },
+  {
+    "centerI": 265,
+    "centerJ": 401.5
+  },
+  {
+    "centerI": 265,
+    "centerJ": 432.5
+  },
+  {
+    "centerI": 265,
+    "centerJ": 442
+  },
+  {
+    "centerI": 265,
+    "centerJ": 465
+  },
+  {
+    "centerI": 264.5,
+    "centerJ": 604.5
+  },
+  {
+    "centerI": 264.5,
+    "centerJ": 721
+  },
+  {
+    "centerI": 266,
+    "centerJ": 307
+  },
+  {
+    "centerI": 266,
+    "centerJ": 314
+  },
+  {
+    "centerI": 265.5,
+    "centerJ": 653.5
+  },
+  {
+    "centerI": 266,
+    "centerJ": 667
+  },
+  {
+    "centerI": 267,
+    "centerJ": 219
+  },
+  {
+    "centerI": 267,
+    "centerJ": 473
+  },
+  {
+    "centerI": 268,
+    "centerJ": 386
+  },
+  {
+    "centerI": 267.5,
+    "centerJ": 488
+  },
+  {
+    "centerI": 267.5,
+    "centerJ": 745.5
+  },
+  {
+    "centerI": 268.5,
+    "centerJ": 211
+  },
+  {
+    "centerI": 268.5,
+    "centerJ": 279.5
+  },
+  {
+    "centerI": 269,
+    "centerJ": 342
+  },
+  {
+    "centerI": 269,
+    "centerJ": 366
+  },
+  {
+    "centerI": 269,
+    "centerJ": 380
+  },
+  {
+    "centerI": 269,
+    "centerJ": 495
+  },
+  {
+    "centerI": 269,
+    "centerJ": 598
+  },
+  {
+    "centerI": 269,
+    "centerJ": 690.5
+  },
+  {
+    "centerI": 270,
+    "centerJ": 655
+  },
+  {
+    "centerI": 271.5,
+    "centerJ": 255.5
+  },
+  {
+    "centerI": 271,
+    "centerJ": 562
+  },
+  {
+    "centerI": 271.5,
+    "centerJ": 626.5
+  },
+  {
+    "centerI": 271.5,
+    "centerJ": 242
+  },
+  {
+    "centerI": 272,
+    "centerJ": 375
+  },
+  {
+    "centerI": 272,
+    "centerJ": 484
+  },
+  {
+    "centerI": 273,
+    "centerJ": 454
+  },
+  {
+    "centerI": 274,
+    "centerJ": 493
+  },
+  {
+    "centerI": 273.5,
+    "centerJ": 586
+  },
+  {
+    "centerI": 273.5,
+    "centerJ": 590
+  },
+  {
+    "centerI": 274,
+    "centerJ": 659
+  },
+  {
+    "centerI": 275,
+    "centerJ": 366
+  },
+  {
+    "centerI": 275,
+    "centerJ": 460
+  },
+  {
+    "centerI": 275,
+    "centerJ": 515.5
+  },
+  {
+    "centerI": 276,
+    "centerJ": 525.5
+  },
+  {
+    "centerI": 276.5,
+    "centerJ": 322.5
+  },
+  {
+    "centerI": 277.5,
+    "centerJ": 287
+  },
+  {
+    "centerI": 277,
+    "centerJ": 596
+  },
+  {
+    "centerI": 278,
+    "centerJ": 335
+  },
+  {
+    "centerI": 278,
+    "centerJ": 380.5
+  },
+  {
+    "centerI": 278,
+    "centerJ": 662
+  },
+  {
+    "centerI": 279,
+    "centerJ": 187
+  },
+  {
+    "centerI": 279,
+    "centerJ": 319
+  },
+  {
+    "centerI": 281,
+    "centerJ": 431
+  },
+  {
+    "centerI": 279.5,
+    "centerJ": 484
+  },
+  {
+    "centerI": 280,
+    "centerJ": 245
+  },
+  {
+    "centerI": 280,
+    "centerJ": 409.5
+  },
+  {
+    "centerI": 280,
+    "centerJ": 450
+  },
+  {
+    "centerI": 280,
+    "centerJ": 511
+  },
+  {
+    "centerI": 280,
+    "centerJ": 614
+  },
+  {
+    "centerI": 280,
+    "centerJ": 629
+  },
+  {
+    "centerI": 280.5,
+    "centerJ": 305
+  },
+  {
+    "centerI": 281,
+    "centerJ": 362
+  },
+  {
+    "centerI": 281,
+    "centerJ": 397
+  },
+  {
+    "centerI": 281.5,
+    "centerJ": 460
+  },
+  {
+    "centerI": 283,
+    "centerJ": 216
+  },
+  {
+    "centerI": 283,
+    "centerJ": 274
+  },
+  {
+    "centerI": 283,
+    "centerJ": 328
+  },
+  {
+    "centerI": 282.5,
+    "centerJ": 500
+  },
+  {
+    "centerI": 282.5,
+    "centerJ": 527
+  },
+  {
+    "centerI": 284,
+    "centerJ": 345
+  },
+  {
+    "centerI": 284,
+    "centerJ": 373
+  },
+  {
+    "centerI": 284,
+    "centerJ": 480
+  },
+  {
+    "centerI": 284,
+    "centerJ": 491
+  },
+  {
+    "centerI": 284,
+    "centerJ": 510.5
+  },
+  {
+    "centerI": 285,
+    "centerJ": 367
+  },
+  {
+    "centerI": 285,
+    "centerJ": 401.5
+  },
+  {
+    "centerI": 285,
+    "centerJ": 467
+  },
+  {
+    "centerI": 284.5,
+    "centerJ": 563
+  },
+  {
+    "centerI": 285,
+    "centerJ": 600
+  },
+  {
+    "centerI": 287.5,
+    "centerJ": 252
+  },
+  {
+    "centerI": 286,
+    "centerJ": 300
+  },
+  {
+    "centerI": 286,
+    "centerJ": 335
+  },
+  {
+    "centerI": 285.5,
+    "centerJ": 551
+  },
+  {
+    "centerI": 287,
+    "centerJ": 385
+  },
+  {
+    "centerI": 288,
+    "centerJ": 187.5
+  },
+  {
+    "centerI": 288.5,
+    "centerJ": 377
+  },
+  {
+    "centerI": 287.5,
+    "centerJ": 526
+  },
+  {
+    "centerI": 288,
+    "centerJ": 688
+  },
+  {
+    "centerI": 289,
+    "centerJ": 306
+  },
+  {
+    "centerI": 289,
+    "centerJ": 314.5
+  },
+  {
+    "centerI": 289,
+    "centerJ": 414
+  },
+  {
+    "centerI": 289,
+    "centerJ": 426.5
+  },
+  {
+    "centerI": 291,
+    "centerJ": 328
+  },
+  {
+    "centerI": 291,
+    "centerJ": 716
+  },
+  {
+    "centerI": 292,
+    "centerJ": 273
+  },
+  {
+    "centerI": 292,
+    "centerJ": 283.5
+  },
+  {
+    "centerI": 293.5,
+    "centerJ": 319
+  },
+  {
+    "centerI": 291.5,
+    "centerJ": 362.5
+  },
+  {
+    "centerI": 292,
+    "centerJ": 418
+  },
+  {
+    "centerI": 292,
+    "centerJ": 443.5
+  },
+  {
+    "centerI": 292,
+    "centerJ": 601.5
+  },
+  {
+    "centerI": 292,
+    "centerJ": 632
+  },
+  {
+    "centerI": 294.5,
+    "centerJ": 650
+  },
+  {
+    "centerI": 294,
+    "centerJ": 741.5
+  },
+  {
+    "centerI": 295,
+    "centerJ": 300.5
+  },
+  {
+    "centerI": 294.5,
+    "centerJ": 466
+  },
+  {
+    "centerI": 296,
+    "centerJ": 488
+  },
+  {
+    "centerI": 297,
+    "centerJ": 294
+  },
+  {
+    "centerI": 297,
+    "centerJ": 368
+  },
+  {
+    "centerI": 297.5,
+    "centerJ": 516
+  },
+  {
+    "centerI": 297,
+    "centerJ": 671.5
+  },
+  {
+    "centerI": 298,
+    "centerJ": 326
+  },
+  {
+    "centerI": 298,
+    "centerJ": 341
+  },
+  {
+    "centerI": 298,
+    "centerJ": 461
+  },
+  {
+    "centerI": 298,
+    "centerJ": 535.5
+  },
+  {
+    "centerI": 297.5,
+    "centerJ": 633.5
+  },
+  {
+    "centerI": 301,
+    "centerJ": 379
+  },
+  {
+    "centerI": 300,
+    "centerJ": 644
+  },
+  {
+    "centerI": 300,
+    "centerJ": 678
+  },
+  {
+    "centerI": 300,
+    "centerJ": 694
+  },
+  {
+    "centerI": 301,
+    "centerJ": 256
+  },
+  {
+    "centerI": 301,
+    "centerJ": 298.5
+  },
+  {
+    "centerI": 301,
+    "centerJ": 348
+  },
+  {
+    "centerI": 301,
+    "centerJ": 399
+  },
+  {
+    "centerI": 302,
+    "centerJ": 244
+  },
+  {
+    "centerI": 302,
+    "centerJ": 449.5
+  },
+  {
+    "centerI": 303,
+    "centerJ": 82
+  },
+  {
+    "centerI": 303.5,
+    "centerJ": 270
+  },
+  {
+    "centerI": 302.5,
+    "centerJ": 361
+  },
+  {
+    "centerI": 303,
+    "centerJ": 690
+  },
+  {
+    "centerI": 303.5,
+    "centerJ": 282
+  },
+  {
+    "centerI": 305.5,
+    "centerJ": 412
+  },
+  {
+    "centerI": 304,
+    "centerJ": 420
+  },
+  {
+    "centerI": 304,
+    "centerJ": 438
+  },
+  {
+    "centerI": 305,
+    "centerJ": 218.5
+  },
+  {
+    "centerI": 305,
+    "centerJ": 367
+  },
+  {
+    "centerI": 305,
+    "centerJ": 557
+  },
+  {
+    "centerI": 306.5,
+    "centerJ": 405
+  },
+  {
+    "centerI": 307,
+    "centerJ": 498
+  },
+  {
+    "centerI": 308,
+    "centerJ": 110
+  },
+  {
+    "centerI": 308,
+    "centerJ": 232
+  },
+  {
+    "centerI": 308,
+    "centerJ": 540
+  },
+  {
+    "centerI": 309,
+    "centerJ": 502
+  },
+  {
+    "centerI": 309.5,
+    "centerJ": 214
+  },
+  {
+    "centerI": 309.5,
+    "centerJ": 398
+  },
+  {
+    "centerI": 310,
+    "centerJ": 467
+  },
+  {
+    "centerI": 311,
+    "centerJ": 521
+  },
+  {
+    "centerI": 311,
+    "centerJ": 559
+  },
+  {
+    "centerI": 312,
+    "centerJ": 77
+  },
+  {
+    "centerI": 312,
+    "centerJ": 201
+  },
+  {
+    "centerI": 312,
+    "centerJ": 299
+  },
+  {
+    "centerI": 312,
+    "centerJ": 380
+  },
+  {
+    "centerI": 312,
+    "centerJ": 423
+  },
+  {
+    "centerI": 312,
+    "centerJ": 667.5
+  },
+  {
+    "centerI": 313,
+    "centerJ": 251
+  },
+  {
+    "centerI": 312.5,
+    "centerJ": 463
+  },
+  {
+    "centerI": 313,
+    "centerJ": 574
+  },
+  {
+    "centerI": 313,
+    "centerJ": 652
+  },
+  {
+    "centerI": 314,
+    "centerJ": 508.5
+  },
+  {
+    "centerI": 314,
+    "centerJ": 538
+  },
+  {
+    "centerI": 314,
+    "centerJ": 586
+  },
+  {
+    "centerI": 313.5,
+    "centerJ": 678
+  },
+  {
+    "centerI": 314.5,
+    "centerJ": 51
+  },
+  {
+    "centerI": 315,
+    "centerJ": 358
+  },
+  {
+    "centerI": 317,
+    "centerJ": 409.5
+  },
+  {
+    "centerI": 315,
+    "centerJ": 441.5
+  },
+  {
+    "centerI": 315,
+    "centerJ": 467
+  },
+  {
+    "centerI": 315.5,
+    "centerJ": 474
+  },
+  {
+    "centerI": 315.5,
+    "centerJ": 481
+  },
+  {
+    "centerI": 315.5,
+    "centerJ": 105
+  },
+  {
+    "centerI": 316.5,
+    "centerJ": 275
+  },
+  {
+    "centerI": 317,
+    "centerJ": 320
+  },
+  {
+    "centerI": 316.5,
+    "centerJ": 558.5
+  },
+  {
+    "centerI": 318,
+    "centerJ": 401
+  },
+  {
+    "centerI": 319.5,
+    "centerJ": 433
+  },
+  {
+    "centerI": 318,
+    "centerJ": 446
+  },
+  {
+    "centerI": 318,
+    "centerJ": 490
+  },
+  {
+    "centerI": 319,
+    "centerJ": 350
+  },
+  {
+    "centerI": 318.5,
+    "centerJ": 496.5
+  },
+  {
+    "centerI": 319.5,
+    "centerJ": 572.5
+  },
+  {
+    "centerI": 319,
+    "centerJ": 583.5
+  },
+  {
+    "centerI": 320,
+    "centerJ": 291.5
+  },
+  {
+    "centerI": 321,
+    "centerJ": 106.5
+  },
+  {
+    "centerI": 321,
+    "centerJ": 252.5
+  },
+  {
+    "centerI": 321,
+    "centerJ": 270
+  },
+  {
+    "centerI": 322.5,
+    "centerJ": 387.5
+  },
+  {
+    "centerI": 321,
+    "centerJ": 393.5
+  },
+  {
+    "centerI": 321,
+    "centerJ": 418
+  },
+  {
+    "centerI": 321,
+    "centerJ": 452
+  },
+  {
+    "centerI": 321,
+    "centerJ": 458.5
+  },
+  {
+    "centerI": 321,
+    "centerJ": 515
+  },
+  {
+    "centerI": 321,
+    "centerJ": 522
+  },
+  {
+    "centerI": 322.5,
+    "centerJ": 608.5
+  },
+  {
+    "centerI": 323,
+    "centerJ": 317
+  },
+  {
+    "centerI": 324,
+    "centerJ": 78
+  },
+  {
+    "centerI": 324,
+    "centerJ": 130
+  },
+  {
+    "centerI": 324,
+    "centerJ": 359
+  },
+  {
+    "centerI": 325.5,
+    "centerJ": 406
+  },
+  {
+    "centerI": 324,
+    "centerJ": 426
+  },
+  {
+    "centerI": 324,
+    "centerJ": 447
+  },
+  {
+    "centerI": 324,
+    "centerJ": 477
+  },
+  {
+    "centerI": 327,
+    "centerJ": 486
+  },
+  {
+    "centerI": 324,
+    "centerJ": 537.5
+  },
+  {
+    "centerI": 324,
+    "centerJ": 542
+  },
+  {
+    "centerI": 325,
+    "centerJ": 142.5
+  },
+  {
+    "centerI": 325,
+    "centerJ": 658
+  },
+  {
+    "centerI": 326,
+    "centerJ": 377
+  },
+  {
+    "centerI": 325.5,
+    "centerJ": 580
+  },
+  {
+    "centerI": 327,
+    "centerJ": 222.5
+  },
+  {
+    "centerI": 327,
+    "centerJ": 323
+  },
+  {
+    "centerI": 327,
+    "centerJ": 370.5
+  },
+  {
+    "centerI": 327,
+    "centerJ": 455
+  },
+  {
+    "centerI": 327,
+    "centerJ": 460
+  },
+  {
+    "centerI": 327,
+    "centerJ": 471
+  },
+  {
+    "centerI": 328.5,
+    "centerJ": 501
+  },
+  {
+    "centerI": 327,
+    "centerJ": 509.5
+  },
+  {
+    "centerI": 327,
+    "centerJ": 548
+  },
+  {
+    "centerI": 329,
+    "centerJ": 416.5
+  },
+  {
+    "centerI": 330.5,
+    "centerJ": 573.5
+  },
+  {
+    "centerI": 329.5,
+    "centerJ": 245
+  },
+  {
+    "centerI": 330,
+    "centerJ": 303
+  },
+  {
+    "centerI": 331,
+    "centerJ": 347.5
+  },
+  {
+    "centerI": 330,
+    "centerJ": 380
+  },
+  {
+    "centerI": 330,
+    "centerJ": 412
+  },
+  {
+    "centerI": 330,
+    "centerJ": 525
+  },
+  {
+    "centerI": 330,
+    "centerJ": 537
+  },
+  {
+    "centerI": 332,
+    "centerJ": 79
+  },
+  {
+    "centerI": 332,
+    "centerJ": 143
+  },
+  {
+    "centerI": 332,
+    "centerJ": 269
+  },
+  {
+    "centerI": 332,
+    "centerJ": 292
+  },
+  {
+    "centerI": 331.5,
+    "centerJ": 316.5
+  },
+  {
+    "centerI": 332.5,
+    "centerJ": 335
+  },
+  {
+    "centerI": 333,
+    "centerJ": 397.5
+  },
+  {
+    "centerI": 333,
+    "centerJ": 532
+  },
+  {
+    "centerI": 334,
+    "centerJ": 134
+  },
+  {
+    "centerI": 334,
+    "centerJ": 670
+  },
+  {
+    "centerI": 335,
+    "centerJ": 251
+  },
+  {
+    "centerI": 335,
+    "centerJ": 276
+  },
+  {
+    "centerI": 334.5,
+    "centerJ": 342
+  },
+  {
+    "centerI": 334.5,
+    "centerJ": 378
+  },
+  {
+    "centerI": 335,
+    "centerJ": 450
+  },
+  {
+    "centerI": 335,
+    "centerJ": 603
+  },
+  {
+    "centerI": 335.5,
+    "centerJ": 371
+  },
+  {
+    "centerI": 337,
+    "centerJ": 107
+  },
+  {
+    "centerI": 337,
+    "centerJ": 348.5
+  },
+  {
+    "centerI": 337.5,
+    "centerJ": 410
+  },
+  {
+    "centerI": 338.5,
+    "centerJ": 435.5
+  },
+  {
+    "centerI": 336.5,
+    "centerJ": 692
+  },
+  {
+    "centerI": 338,
+    "centerJ": 264.5
+  },
+  {
+    "centerI": 338,
+    "centerJ": 393
+  },
+  {
+    "centerI": 338,
+    "centerJ": 398
+  },
+  {
+    "centerI": 337.5,
+    "centerJ": 404
+  },
+  {
+    "centerI": 338,
+    "centerJ": 616
+  },
+  {
+    "centerI": 338,
+    "centerJ": 625
+  },
+  {
+    "centerI": 338,
+    "centerJ": 702
+  },
+  {
+    "centerI": 339,
+    "centerJ": 218
+  },
+  {
+    "centerI": 339,
+    "centerJ": 255
+  },
+  {
+    "centerI": 339,
+    "centerJ": 307
+  },
+  {
+    "centerI": 340,
+    "centerJ": 366
+  },
+  {
+    "centerI": 341.5,
+    "centerJ": 419.5
+  },
+  {
+    "centerI": 339.5,
+    "centerJ": 460.5
+  },
+  {
+    "centerI": 340,
+    "centerJ": 475
+  },
+  {
+    "centerI": 340.5,
+    "centerJ": 642
+  },
+  {
+    "centerI": 340.5,
+    "centerJ": 648
+  },
+  {
+    "centerI": 341,
+    "centerJ": 675.5
+  },
+  {
+    "centerI": 340.5,
+    "centerJ": 717.5
+  },
+  {
+    "centerI": 342,
+    "centerJ": 241
+  },
+  {
+    "centerI": 343,
+    "centerJ": 140
+  },
+  {
+    "centerI": 343,
+    "centerJ": 178
+  },
+  {
+    "centerI": 343,
+    "centerJ": 388.5
+  },
+  {
+    "centerI": 344.5,
+    "centerJ": 443
+  },
+  {
+    "centerI": 343,
+    "centerJ": 451
+  },
+  {
+    "centerI": 344,
+    "centerJ": 221
+  },
+  {
+    "centerI": 343.5,
+    "centerJ": 634.5
+  },
+  {
+    "centerI": 343.5,
+    "centerJ": 662
+  },
+  {
+    "centerI": 344.5,
+    "centerJ": 190
+  },
+  {
+    "centerI": 345,
+    "centerJ": 409
+  },
+  {
+    "centerI": 344.5,
+    "centerJ": 564
+  },
+  {
+    "centerI": 345,
+    "centerJ": 586
+  },
+  {
+    "centerI": 346,
+    "centerJ": 156
+  },
+  {
+    "centerI": 347.5,
+    "centerJ": 378
+  },
+  {
+    "centerI": 347.5,
+    "centerJ": 389
+  },
+  {
+    "centerI": 347,
+    "centerJ": 195
+  },
+  {
+    "centerI": 348,
+    "centerJ": 209
+  },
+  {
+    "centerI": 347,
+    "centerJ": 237
+  },
+  {
+    "centerI": 347,
+    "centerJ": 431
+  },
+  {
+    "centerI": 347,
+    "centerJ": 549
+  },
+  {
+    "centerI": 347,
+    "centerJ": 556
+  },
+  {
+    "centerI": 346.5,
+    "centerJ": 641
+  },
+  {
+    "centerI": 346.5,
+    "centerJ": 691
+  },
+  {
+    "centerI": 347.5,
+    "centerJ": 717
+  },
+  {
+    "centerI": 349,
+    "centerJ": 360
+  },
+  {
+    "centerI": 349,
+    "centerJ": 703
+  },
+  {
+    "centerI": 350,
+    "centerJ": 169
+  },
+  {
+    "centerI": 350,
+    "centerJ": 410
+  },
+  {
+    "centerI": 350,
+    "centerJ": 525
+  },
+  {
+    "centerI": 351,
+    "centerJ": 281.5
+  },
+  {
+    "centerI": 351.5,
+    "centerJ": 347
+  },
+  {
+    "centerI": 351,
+    "centerJ": 451
+  },
+  {
+    "centerI": 352,
+    "centerJ": 371
+  },
+  {
+    "centerI": 352,
+    "centerJ": 501
+  },
+  {
+    "centerI": 353,
+    "centerJ": 143
+  },
+  {
+    "centerI": 353,
+    "centerJ": 536
+  },
+  {
+    "centerI": 354.5,
+    "centerJ": 431
+  },
+  {
+    "centerI": 356.5,
+    "centerJ": 333.5
+  },
+  {
+    "centerI": 355,
+    "centerJ": 354
+  },
+  {
+    "centerI": 356,
+    "centerJ": 116
+  },
+  {
+    "centerI": 355.5,
+    "centerJ": 521
+  },
+  {
+    "centerI": 356,
+    "centerJ": 543
+  },
+  {
+    "centerI": 357,
+    "centerJ": 349
+  },
+  {
+    "centerI": 357,
+    "centerJ": 375
+  },
+  {
+    "centerI": 357,
+    "centerJ": 671
+  },
+  {
+    "centerI": 357,
+    "centerJ": 677
+  },
+  {
+    "centerI": 358.5,
+    "centerJ": 86
+  },
+  {
+    "centerI": 357.5,
+    "centerJ": 602
+  },
+  {
+    "centerI": 359,
+    "centerJ": 268
+  },
+  {
+    "centerI": 359,
+    "centerJ": 549.5
+  },
+  {
+    "centerI": 360,
+    "centerJ": 211
+  },
+  {
+    "centerI": 360,
+    "centerJ": 220
+  },
+  {
+    "centerI": 359.5,
+    "centerJ": 263
+  },
+  {
+    "centerI": 360,
+    "centerJ": 384.5
+  },
+  {
+    "centerI": 359.5,
+    "centerJ": 410
+  },
+  {
+    "centerI": 360,
+    "centerJ": 473
+  },
+  {
+    "centerI": 360,
+    "centerJ": 584
+  },
+  {
+    "centerI": 360,
+    "centerJ": 592
+  },
+  {
+    "centerI": 360,
+    "centerJ": 655.5
+  },
+  {
+    "centerI": 360.5,
+    "centerJ": 56
+  },
+  {
+    "centerI": 361,
+    "centerJ": 622.5
+  },
+  {
+    "centerI": 361,
+    "centerJ": 799.5
+  },
+  {
+    "centerI": 365,
+    "centerJ": 401.5
+  },
+  {
+    "centerI": 362,
+    "centerJ": 419.5
+  },
+  {
+    "centerI": 363,
+    "centerJ": 233
+  },
+  {
+    "centerI": 363,
+    "centerJ": 242.5
+  },
+  {
+    "centerI": 364,
+    "centerJ": 285.5
+  },
+  {
+    "centerI": 363,
+    "centerJ": 436.5
+  },
+  {
+    "centerI": 363,
+    "centerJ": 459
+  },
+  {
+    "centerI": 362.5,
+    "centerJ": 492
+  },
+  {
+    "centerI": 363,
+    "centerJ": 573
+  },
+  {
+    "centerI": 363,
+    "centerJ": 676
+  },
+  {
+    "centerI": 365,
+    "centerJ": 202
+  },
+  {
+    "centerI": 365,
+    "centerJ": 296
+  },
+  {
+    "centerI": 365.5,
+    "centerJ": 412.5
+  },
+  {
+    "centerI": 364.5,
+    "centerJ": 484
+  },
+  {
+    "centerI": 365.5,
+    "centerJ": 503
+  },
+  {
+    "centerI": 364.5,
+    "centerJ": 624
+  },
+  {
+    "centerI": 366,
+    "centerJ": 253
+  },
+  {
+    "centerI": 365.5,
+    "centerJ": 362
+  },
+  {
+    "centerI": 366,
+    "centerJ": 554
+  },
+  {
+    "centerI": 366,
+    "centerJ": 690
+  },
+  {
+    "centerI": 366,
+    "centerJ": 774
+  },
+  {
+    "centerI": 367,
+    "centerJ": 121
+  },
+  {
+    "centerI": 367.5,
+    "centerJ": 471
+  },
+  {
+    "centerI": 368.5,
+    "centerJ": 314.5
+  },
+  {
+    "centerI": 368,
+    "centerJ": 445.5
+  },
+  {
+    "centerI": 368,
+    "centerJ": 620
+  },
+  {
+    "centerI": 368.5,
+    "centerJ": 381
+  },
+  {
+    "centerI": 369,
+    "centerJ": 520
+  },
+  {
+    "centerI": 369,
+    "centerJ": 783
+  },
+  {
+    "centerI": 370,
+    "centerJ": 393
+  },
+  {
+    "centerI": 370,
+    "centerJ": 434
+  },
+  {
+    "centerI": 370.5,
+    "centerJ": 27.5
+  },
+  {
+    "centerI": 371,
+    "centerJ": 136
+  },
+  {
+    "centerI": 372.5,
+    "centerJ": 340
+  },
+  {
+    "centerI": 371,
+    "centerJ": 385.5
+  },
+  {
+    "centerI": 371,
+    "centerJ": 477
+  },
+  {
+    "centerI": 371,
+    "centerJ": 549
+  },
+  {
+    "centerI": 371,
+    "centerJ": 645.5
+  },
+  {
+    "centerI": 370.5,
+    "centerJ": 745.5
+  },
+  {
+    "centerI": 372,
+    "centerJ": 204
+  },
+  {
+    "centerI": 372,
+    "centerJ": 347
+  },
+  {
+    "centerI": 371.5,
+    "centerJ": 356
+  },
+  {
+    "centerI": 372,
+    "centerJ": 369
+  },
+  {
+    "centerI": 372,
+    "centerJ": 504
+  },
+  {
+    "centerI": 372,
+    "centerJ": 806
+  },
+  {
+    "centerI": 373,
+    "centerJ": 234
+  },
+  {
+    "centerI": 373.5,
+    "centerJ": 52
+  },
+  {
+    "centerI": 373.5,
+    "centerJ": 58
+  },
+  {
+    "centerI": 374,
+    "centerJ": 373
+  },
+  {
+    "centerI": 374,
+    "centerJ": 442
+  },
+  {
+    "centerI": 374,
+    "centerJ": 620
+  },
+  {
+    "centerI": 374,
+    "centerJ": 630
+  },
+  {
+    "centerI": 375,
+    "centerJ": 756
+  },
+  {
+    "centerI": 376,
+    "centerJ": 79
+  },
+  {
+    "centerI": 376,
+    "centerJ": 83
+  },
+  {
+    "centerI": 376.5,
+    "centerJ": 91.5
+  },
+  {
+    "centerI": 376,
+    "centerJ": 136.5
+  },
+  {
+    "centerI": 376,
+    "centerJ": 269
+  },
+  {
+    "centerI": 376,
+    "centerJ": 293
+  },
+  {
+    "centerI": 376,
+    "centerJ": 422
+  },
+  {
+    "centerI": 376,
+    "centerJ": 432
+  },
+  {
+    "centerI": 375.5,
+    "centerJ": 746
+  },
+  {
+    "centerI": 376.5,
+    "centerJ": 353
+  },
+  {
+    "centerI": 377,
+    "centerJ": 473.5
+  },
+  {
+    "centerI": 377,
+    "centerJ": 610.5
+  },
+  {
+    "centerI": 377,
+    "centerJ": 721
+  },
+  {
+    "centerI": 378,
+    "centerJ": 159
+  },
+  {
+    "centerI": 378,
+    "centerJ": 440.5
+  },
+  {
+    "centerI": 377.5,
+    "centerJ": 587.5
+  },
+  {
+    "centerI": 379,
+    "centerJ": 109.5
+  },
+  {
+    "centerI": 379,
+    "centerJ": 316
+  },
+  {
+    "centerI": 379,
+    "centerJ": 328
+  },
+  {
+    "centerI": 379,
+    "centerJ": 426
+  },
+  {
+    "centerI": 380,
+    "centerJ": 483
+  },
+  {
+    "centerI": 380,
+    "centerJ": 563.5
+  },
+  {
+    "centerI": 380,
+    "centerJ": 569.5
+  },
+  {
+    "centerI": 380,
+    "centerJ": 601
+  },
+  {
+    "centerI": 380,
+    "centerJ": 782
+  },
+  {
+    "centerI": 381,
+    "centerJ": 183
+  },
+  {
+    "centerI": 380.5,
+    "centerJ": 251
+  },
+  {
+    "centerI": 381.5,
+    "centerJ": 336
+  },
+  {
+    "centerI": 382,
+    "centerJ": 138
+  },
+  {
+    "centerI": 382,
+    "centerJ": 276.5
+  },
+  {
+    "centerI": 382,
+    "centerJ": 356
+  },
+  {
+    "centerI": 383,
+    "centerJ": 550
+  },
+  {
+    "centerI": 384.5,
+    "centerJ": 578
+  },
+  {
+    "centerI": 383,
+    "centerJ": 761
+  },
+  {
+    "centerI": 384,
+    "centerJ": 8
+  },
+  {
+    "centerI": 384,
+    "centerJ": 382
+  },
+  {
+    "centerI": 384,
+    "centerJ": 480
+  },
+  {
+    "centerI": 385,
+    "centerJ": 165
+  },
+  {
+    "centerI": 384.5,
+    "centerJ": 213
+  },
+  {
+    "centerI": 385,
+    "centerJ": 410.5
+  },
+  {
+    "centerI": 385.5,
+    "centerJ": 734
+  },
+  {
+    "centerI": 384.5,
+    "centerJ": 749
+  },
+  {
+    "centerI": 387,
+    "centerJ": 244
+  },
+  {
+    "centerI": 387,
+    "centerJ": 371
+  },
+  {
+    "centerI": 387,
+    "centerJ": 375.5
+  },
+  {
+    "centerI": 388.5,
+    "centerJ": 399.5
+  },
+  {
+    "centerI": 388,
+    "centerJ": 155
+  },
+  {
+    "centerI": 388,
+    "centerJ": 405
+  },
+  {
+    "centerI": 389,
+    "centerJ": 321
+  },
+  {
+    "centerI": 389,
+    "centerJ": 390.5
+  },
+  {
+    "centerI": 388.5,
+    "centerJ": 452.5
+  },
+  {
+    "centerI": 390,
+    "centerJ": 518.5
+  },
+  {
+    "centerI": 390,
+    "centerJ": 561.5
+  },
+  {
+    "centerI": 389,
+    "centerJ": 710
+  },
+  {
+    "centerI": 390,
+    "centerJ": 277
+  },
+  {
+    "centerI": 390,
+    "centerJ": 327
+  },
+  {
+    "centerI": 390,
+    "centerJ": 333
+  },
+  {
+    "centerI": 391,
+    "centerJ": 225
+  },
+  {
+    "centerI": 391,
+    "centerJ": 472
+  },
+  {
+    "centerI": 391,
+    "centerJ": 500.5
+  },
+  {
+    "centerI": 391,
+    "centerJ": 509
+  },
+  {
+    "centerI": 391,
+    "centerJ": 729.5
+  },
+  {
+    "centerI": 391,
+    "centerJ": 785
+  },
+  {
+    "centerI": 393,
+    "centerJ": 355
+  },
+  {
+    "centerI": 393,
+    "centerJ": 369
+  },
+  {
+    "centerI": 393.5,
+    "centerJ": 37.5
+  },
+  {
+    "centerI": 394,
+    "centerJ": 205
+  },
+  {
+    "centerI": 394,
+    "centerJ": 255
+  },
+  {
+    "centerI": 394,
+    "centerJ": 457
+  },
+  {
+    "centerI": 393.5,
+    "centerJ": 481
+  },
+  {
+    "centerI": 394.5,
+    "centerJ": 689.5
+  },
+  {
+    "centerI": 394,
+    "centerJ": 703
+  },
+  {
+    "centerI": 394,
+    "centerJ": 755
+  },
+  {
+    "centerI": 395,
+    "centerJ": 127.5
+  },
+  {
+    "centerI": 395,
+    "centerJ": 374
+  },
+  {
+    "centerI": 395,
+    "centerJ": 406.5
+  },
+  {
+    "centerI": 395,
+    "centerJ": 747
+  },
+  {
+    "centerI": 396,
+    "centerJ": 66
+  },
+  {
+    "centerI": 395.5,
+    "centerJ": 168.5
+  },
+  {
+    "centerI": 396,
+    "centerJ": 437
+  },
+  {
+    "centerI": 396,
+    "centerJ": 442
+  },
+  {
+    "centerI": 395.5,
+    "centerJ": 525
+  },
+  {
+    "centerI": 397,
+    "centerJ": 487
+  },
+  {
+    "centerI": 397,
+    "centerJ": 661.5
+  },
+  {
+    "centerI": 397,
+    "centerJ": 678
+  },
+  {
+    "centerI": 397,
+    "centerJ": 696.5
+  },
+  {
+    "centerI": 397,
+    "centerJ": 722
+  },
+  {
+    "centerI": 398,
+    "centerJ": 326
+  },
+  {
+    "centerI": 398,
+    "centerJ": 379.5
+  },
+  {
+    "centerI": 398,
+    "centerJ": 499
+  },
+  {
+    "centerI": 400,
+    "centerJ": 408
+  },
+  {
+    "centerI": 399.5,
+    "centerJ": 511.5
+  },
+  {
+    "centerI": 400,
+    "centerJ": 334
+  },
+  {
+    "centerI": 402,
+    "centerJ": 651.5
+  },
+  {
+    "centerI": 400,
+    "centerJ": 685
+  },
+  {
+    "centerI": 400,
+    "centerJ": 717
+  },
+  {
+    "centerI": 401,
+    "centerJ": 68.5
+  },
+  {
+    "centerI": 400.5,
+    "centerJ": 370
+  },
+  {
+    "centerI": 401,
+    "centerJ": 476
+  },
+  {
+    "centerI": 401,
+    "centerJ": 494
+  },
+  {
+    "centerI": 401.5,
+    "centerJ": 185.5
+  },
+  {
+    "centerI": 402,
+    "centerJ": 259
+  },
+  {
+    "centerI": 402,
+    "centerJ": 399
+  },
+  {
+    "centerI": 403,
+    "centerJ": 469.5
+  },
+  {
+    "centerI": 403.5,
+    "centerJ": 423
+  },
+  {
+    "centerI": 403,
+    "centerJ": 630
+  },
+  {
+    "centerI": 402.5,
+    "centerJ": 744.5
+  },
+  {
+    "centerI": 404,
+    "centerJ": 211
+  },
+  {
+    "centerI": 404,
+    "centerJ": 263
+  },
+  {
+    "centerI": 404,
+    "centerJ": 285
+  },
+  {
+    "centerI": 404,
+    "centerJ": 337
+  },
+  {
+    "centerI": 404.5,
+    "centerJ": 445
+  },
+  {
+    "centerI": 406.5,
+    "centerJ": 74.5
+  },
+  {
+    "centerI": 407,
+    "centerJ": 237
+  },
+  {
+    "centerI": 407,
+    "centerJ": 357.5
+  },
+  {
+    "centerI": 407,
+    "centerJ": 392
+  },
+  {
+    "centerI": 407,
+    "centerJ": 434
+  },
+  {
+    "centerI": 407,
+    "centerJ": 643
+  },
+  {
+    "centerI": 407,
+    "centerJ": 753.5
+  },
+  {
+    "centerI": 409,
+    "centerJ": 388
+  },
+  {
+    "centerI": 409,
+    "centerJ": 495
+  },
+  {
+    "centerI": 409,
+    "centerJ": 719
+  },
+  {
+    "centerI": 409,
+    "centerJ": 779
+  },
+  {
+    "centerI": 410,
+    "centerJ": 173.5
+  },
+  {
+    "centerI": 410,
+    "centerJ": 266
+  },
+  {
+    "centerI": 410,
+    "centerJ": 407
+  },
+  {
+    "centerI": 410,
+    "centerJ": 422
+  },
+  {
+    "centerI": 412,
+    "centerJ": 487
+  },
+  {
+    "centerI": 410,
+    "centerJ": 625
+  },
+  {
+    "centerI": 410.5,
+    "centerJ": 78.5
+  },
+  {
+    "centerI": 412,
+    "centerJ": 313
+  },
+  {
+    "centerI": 412,
+    "centerJ": 743
+  },
+  {
+    "centerI": 412,
+    "centerJ": 752
+  },
+  {
+    "centerI": 412,
+    "centerJ": 800.5
+  },
+  {
+    "centerI": 413,
+    "centerJ": 463
+  },
+  {
+    "centerI": 413,
+    "centerJ": 467.5
+  },
+  {
+    "centerI": 412.5,
+    "centerJ": 610
+  },
+  {
+    "centerI": 414,
+    "centerJ": 105
+  },
+  {
+    "centerI": 414,
+    "centerJ": 110
+  },
+  {
+    "centerI": 414,
+    "centerJ": 193.5
+  },
+  {
+    "centerI": 414,
+    "centerJ": 386.5
+  },
+  {
+    "centerI": 415,
+    "centerJ": 723
+  },
+  {
+    "centerI": 416,
+    "centerJ": 531.5
+  },
+  {
+    "centerI": 417,
+    "centerJ": 133.5
+  },
+  {
+    "centerI": 417,
+    "centerJ": 145
+  },
+  {
+    "centerI": 417,
+    "centerJ": 244
+  },
+  {
+    "centerI": 417.5,
+    "centerJ": 446
+  },
+  {
+    "centerI": 418,
+    "centerJ": 522
+  },
+  {
+    "centerI": 417.5,
+    "centerJ": 681.5
+  },
+  {
+    "centerI": 418,
+    "centerJ": 747
+  },
+  {
+    "centerI": 420,
+    "centerJ": 160.5
+  },
+  {
+    "centerI": 420,
+    "centerJ": 432
+  },
+  {
+    "centerI": 420,
+    "centerJ": 464
+  },
+  {
+    "centerI": 422,
+    "centerJ": 166
+  },
+  {
+    "centerI": 422,
+    "centerJ": 292
+  },
+  {
+    "centerI": 422,
+    "centerJ": 427
+  },
+  {
+    "centerI": 421.5,
+    "centerJ": 741.5
+  },
+  {
+    "centerI": 423,
+    "centerJ": 254.5
+  },
+  {
+    "centerI": 423,
+    "centerJ": 445
+  },
+  {
+    "centerI": 423,
+    "centerJ": 709
+  },
+  {
+    "centerI": 425,
+    "centerJ": 365.5
+  },
+  {
+    "centerI": 424,
+    "centerJ": 485
+  },
+  {
+    "centerI": 424,
+    "centerJ": 519
+  },
+  {
+    "centerI": 424.5,
+    "centerJ": 198.5
+  },
+  {
+    "centerI": 425,
+    "centerJ": 315
+  },
+  {
+    "centerI": 425,
+    "centerJ": 417
+  },
+  {
+    "centerI": 426,
+    "centerJ": 421
+  },
+  {
+    "centerI": 426,
+    "centerJ": 448
+  },
+  {
+    "centerI": 426,
+    "centerJ": 462
+  },
+  {
+    "centerI": 426,
+    "centerJ": 667
+  },
+  {
+    "centerI": 425.5,
+    "centerJ": 736.5
+  },
+  {
+    "centerI": 427,
+    "centerJ": 706
+  },
+  {
+    "centerI": 428,
+    "centerJ": 327
+  },
+  {
+    "centerI": 428,
+    "centerJ": 545
+  },
+  {
+    "centerI": 429,
+    "centerJ": 391
+  },
+  {
+    "centerI": 429,
+    "centerJ": 438
+  },
+  {
+    "centerI": 429,
+    "centerJ": 650.5
+  },
+  {
+    "centerI": 429,
+    "centerJ": 677
+  },
+  {
+    "centerI": 430,
+    "centerJ": 536
+  },
+  {
+    "centerI": 431,
+    "centerJ": 475
+  },
+  {
+    "centerI": 431,
+    "centerJ": 514
+  },
+  {
+    "centerI": 432,
+    "centerJ": 418
+  },
+  {
+    "centerI": 433,
+    "centerJ": 204.5
+  },
+  {
+    "centerI": 433.5,
+    "centerJ": 430.5
+  },
+  {
+    "centerI": 434,
+    "centerJ": 464
+  },
+  {
+    "centerI": 434,
+    "centerJ": 488.5
+  },
+  {
+    "centerI": 433.5,
+    "centerJ": 559
+  },
+  {
+    "centerI": 435,
+    "centerJ": 160
+  },
+  {
+    "centerI": 435,
+    "centerJ": 398
+  },
+  {
+    "centerI": 435.5,
+    "centerJ": 91.5
+  },
+  {
+    "centerI": 436,
+    "centerJ": 498
+  },
+  {
+    "centerI": 435.5,
+    "centerJ": 630.5
+  },
+  {
+    "centerI": 437,
+    "centerJ": 458
+  },
+  {
+    "centerI": 436.5,
+    "centerJ": 535
+  },
+  {
+    "centerI": 439,
+    "centerJ": 183
+  },
+  {
+    "centerI": 439,
+    "centerJ": 510
+  },
+  {
+    "centerI": 439,
+    "centerJ": 520
+  },
+  {
+    "centerI": 439,
+    "centerJ": 661.5
+  },
+  {
+    "centerI": 440,
+    "centerJ": 96
+  },
+  {
+    "centerI": 439.5,
+    "centerJ": 231
+  },
+  {
+    "centerI": 440,
+    "centerJ": 237
+  },
+  {
+    "centerI": 440,
+    "centerJ": 448.5
+  },
+  {
+    "centerI": 439.5,
+    "centerJ": 469
+  },
+  {
+    "centerI": 440.5,
+    "centerJ": 486.5
+  },
+  {
+    "centerI": 440.5,
+    "centerJ": 755
+  },
+  {
+    "centerI": 442.5,
+    "centerJ": 261.5
+  },
+  {
+    "centerI": 442,
+    "centerJ": 377
+  },
+  {
+    "centerI": 442,
+    "centerJ": 406
+  },
+  {
+    "centerI": 442,
+    "centerJ": 497
+  },
+  {
+    "centerI": 443,
+    "centerJ": 512
+  },
+  {
+    "centerI": 444,
+    "centerJ": 537
+  },
+  {
+    "centerI": 444,
+    "centerJ": 730
+  },
+  {
+    "centerI": 445.5,
+    "centerJ": 382
+  },
+  {
+    "centerI": 445.5,
+    "centerJ": 390
+  },
+  {
+    "centerI": 446,
+    "centerJ": 410
+  },
+  {
+    "centerI": 446,
+    "centerJ": 495
+  },
+  {
+    "centerI": 446,
+    "centerJ": 706
+  },
+  {
+    "centerI": 447,
+    "centerJ": 347
+  },
+  {
+    "centerI": 446.5,
+    "centerJ": 756
+  },
+  {
+    "centerI": 448,
+    "centerJ": 141
+  },
+  {
+    "centerI": 448,
+    "centerJ": 405
+  },
+  {
+    "centerI": 448,
+    "centerJ": 532.5
+  },
+  {
+    "centerI": 449,
+    "centerJ": 780
+  },
+  {
+    "centerI": 450,
+    "centerJ": 155.5
+  },
+  {
+    "centerI": 450,
+    "centerJ": 370
+  },
+  {
+    "centerI": 452,
+    "centerJ": 102
+  },
+  {
+    "centerI": 451.5,
+    "centerJ": 548
+  },
+  {
+    "centerI": 453,
+    "centerJ": 524
+  },
+  {
+    "centerI": 455,
+    "centerJ": 497
+  },
+  {
+    "centerI": 454.5,
+    "centerJ": 517.5
+  },
+  {
+    "centerI": 455.5,
+    "centerJ": 383
+  },
+  {
+    "centerI": 456,
+    "centerJ": 388
+  },
+  {
+    "centerI": 456,
+    "centerJ": 435
+  },
+  {
+    "centerI": 456,
+    "centerJ": 461
+  },
+  {
+    "centerI": 456,
+    "centerJ": 470
+  },
+  {
+    "centerI": 457,
+    "centerJ": 489.5
+  },
+  {
+    "centerI": 457,
+    "centerJ": 441
+  },
+  {
+    "centerI": 458.5,
+    "centerJ": 409
+  },
+  {
+    "centerI": 459,
+    "centerJ": 448.5
+  },
+  {
+    "centerI": 460,
+    "centerJ": 119
+  },
+  {
+    "centerI": 462,
+    "centerJ": 81
+  },
+  {
+    "centerI": 462,
+    "centerJ": 745
+  },
+  {
+    "centerI": 463,
+    "centerJ": 150
+  },
+  {
+    "centerI": 463.5,
+    "centerJ": 193.5
+  },
+  {
+    "centerI": 465,
+    "centerJ": 361
+  },
+  {
+    "centerI": 466,
+    "centerJ": 136
+  },
+  {
+    "centerI": 466,
+    "centerJ": 395
+  },
+  {
+    "centerI": 466,
+    "centerJ": 414
+  },
+  {
+    "centerI": 466.5,
+    "centerJ": 225
+  },
+  {
+    "centerI": 467,
+    "centerJ": 733
+  },
+  {
+    "centerI": 466.5,
+    "centerJ": 740.5
+  },
+  {
+    "centerI": 468.5,
+    "centerJ": 167
+  },
+  {
+    "centerI": 469,
+    "centerJ": 179
+  },
+  {
+    "centerI": 469,
+    "centerJ": 256
+  },
+  {
+    "centerI": 469,
+    "centerJ": 433
+  },
+  {
+    "centerI": 469,
+    "centerJ": 464.5
+  },
+  {
+    "centerI": 471,
+    "centerJ": 199.5
+  },
+  {
+    "centerI": 471,
+    "centerJ": 486.5
+  },
+  {
+    "centerI": 471,
+    "centerJ": 498.5
+  },
+  {
+    "centerI": 471,
+    "centerJ": 724
+  },
+  {
+    "centerI": 472.5,
+    "centerJ": 523
+  },
+  {
+    "centerI": 473,
+    "centerJ": 731.5
+  },
+  {
+    "centerI": 474,
+    "centerJ": 94.5
+  },
+  {
+    "centerI": 474,
+    "centerJ": 234
+  },
+  {
+    "centerI": 475,
+    "centerJ": 720.5
+  },
+  {
+    "centerI": 476,
+    "centerJ": 387
+  },
+  {
+    "centerI": 475.5,
+    "centerJ": 500
+  },
+  {
+    "centerI": 477,
+    "centerJ": 506
+  },
+  {
+    "centerI": 479,
+    "centerJ": 404
+  },
+  {
+    "centerI": 479,
+    "centerJ": 482
+  },
+  {
+    "centerI": 480,
+    "centerJ": 321
+  },
+  {
+    "centerI": 479.5,
+    "centerJ": 488.5
+  },
+  {
+    "centerI": 480.5,
+    "centerJ": 211
+  },
+  {
+    "centerI": 482,
+    "centerJ": 429.5
+  },
+  {
+    "centerI": 483,
+    "centerJ": 240
+  },
+  {
+    "centerI": 483,
+    "centerJ": 347
+  },
+  {
+    "centerI": 483,
+    "centerJ": 435.5
+  },
+  {
+    "centerI": 484,
+    "centerJ": 442
+  },
+  {
+    "centerI": 486,
+    "centerJ": 370
+  },
+  {
+    "centerI": 488,
+    "centerJ": 383.5
+  },
+  {
+    "centerI": 489.5,
+    "centerJ": 572
+  },
+  {
+    "centerI": 491,
+    "centerJ": 80
+  },
+  {
+    "centerI": 492,
+    "centerJ": 397.5
+  },
+  {
+    "centerI": 492,
+    "centerJ": 503
+  },
+  {
+    "centerI": 492,
+    "centerJ": 548
+  },
+  {
+    "centerI": 494,
+    "centerJ": 390
+  },
+  {
+    "centerI": 494,
+    "centerJ": 128.5
+  },
+  {
+    "centerI": 494.5,
+    "centerJ": 463
+  },
+  {
+    "centerI": 495,
+    "centerJ": 402.5
+  },
+  {
+    "centerI": 495,
+    "centerJ": 476
+  },
+  {
+    "centerI": 495,
+    "centerJ": 498
+  },
+  {
+    "centerI": 496,
+    "centerJ": 169
+  },
+  {
+    "centerI": 496.5,
+    "centerJ": 176
+  },
+  {
+    "centerI": 498,
+    "centerJ": 229
+  },
+  {
+    "centerI": 507,
+    "centerJ": 467.5
+  },
+  {
+    "centerI": 509.5,
+    "centerJ": 443
+  },
+  {
+    "centerI": 515,
+    "centerJ": 455
+  },
+  {
+    "centerI": 516,
+    "centerJ": 160
+  },
+  {
+    "centerI": 516,
+    "centerJ": 470
+  },
+  {
+    "centerI": 525.5,
+    "centerJ": 393.5
+  },
+  {
+    "centerI": 537,
+    "centerJ": 466
+  },
+  {
+    "centerI": 556,
+    "centerJ": 465
+  }
+]

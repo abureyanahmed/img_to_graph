@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modify Image Colors Based on Input</title>
+</head>
+<body>
+
+<h3>Input a Number to Modify Colors in the Image</h3>
+<input type="number" id="threshold" placeholder="Enter a threshold number" />
+<input type="file" id="fileInput" accept="image/png" />
+<canvas id="canvas" style="display:none;"></canvas>
+
+<script>
+    /*alert(`
+    TODO:
+    Make all the R, G, B values equal, sometimes they differ a bit
+    Then try to different threshold, say 150 and 250
+    Use the first one to detect vertices
+    Run a dfs and mark connected components
+    take the average of RGB values
+    Take out that component and rerun the process until there are black points
+    Use the second one to detect edges`)*/
+
+    function createBinary2DList(data, width, height) {
+        const result = []; // The resulting 2D list
+
+        // Iterate through the data array and create rows of the 2D list
+        for (let y = 0; y < height; y++) {
+            const row = []; // This will store the current row
+            for (let x = 0; x < width; x++) {
+                const index = (y * width + x) * 4; // Get the index for the current pixel in the data array
+                const r = data[index];     // Red value
+                const g = data[index + 1]; // Green value
+                const b = data[index + 2]; // Blue value
+
+                // If the pixel is black (r, g, b are all 0), append 0, otherwise append 1
+                row.push(r === 0 && g === 0 && b === 0 ? 0 : 1);
+            }
+            result.push(row); // Add the row to the 2D list
+        }
+
+        return result; // Return the 2D binary list
+    }
+
+    document.getElementById('fileInput').addEventListener('change', function(event) {
+        const file = event.target.files[0];  // Get the selected file
+
+        if (file) {
+            const reader = new FileReader();  // Create a new FileReader instance
+
+            // Define the onload event handler for FileReader
+            reader.onload = function(e) {
+                const img = new Image();  // Create a new Image object
+
+                // Define the onload event handler for the Image object
+                img.onload = function() {
+                    const canvas = document.getElementById('canvas');
+                    const ctx = canvas.getContext('2d');
+
+                    // Set the canvas size to match the image size
+                    canvas.width = img.width;
+                    canvas.height = img.height;
+
+                    // Draw the image onto the canvas
+                    ctx.drawImage(img, 0, 0);
+
+                    // Get the pixel data from the canvas
+                    const imageData = ctx.getImageData(0, 0, img.width, img.height);
+                    const data = imageData.data;  // This contains the RGBA values for all pixels
+
+                    // Get the input number (threshold) from the user
+                    const threshold = document.getElementById('threshold').value;
+
+                    // Loop through each pixel and modify R, G, B values based on threshold
+                    for (let i = 0; i < data.length; i += 4) {
+                        const r = data[i];       // Red component
+                        const g = data[i + 1];   // Green component
+                        const b = data[i + 2];   // Blue component
+
+                        // Modify R, G, and B values based on threshold
+                        data[i] = r < threshold ? 0 : 255;       // Modify Red
+                        data[i + 1] = g < threshold ? 0 : 255;   // Modify Green
+                        data[i + 2] = b < threshold ? 0 : 255;   // Modify Blue
+                    }
+
+                    const binary2DList = createBinary2DList(data, img.width, img.height);
+
+                    // Log the resulting 2D binary list
+                    console.log(binary2DList);
+
+                    //recursively find neighbors and mark them off
+                    function findNeighborsAndMark(i, j, binary2DList) {
+                        const directions = [
+                            [-1, -1], [0, -1], [1, -1],
+                            [-1, 0],           [1, 0],
+                            [-1, 1], [0, 1], [1, 1]
+                        ];
+
+                        const rows = binary2DList.length;
+                        const cols = binary2DList[0].length;
+
+                        // Helper function to mark neighbors
+                        function markAndFindNeighbors(x, y) {
+                            // If the coordinates are out of bounds or already marked, return
+                            if (x < 0 || x >= rows || y < 0 || y >= cols || binary2DList[x][y] === 1) {
+                                return [];
+                            }
+
+                            // Mark the current position as 1
+                            binary2DList[x][y] = 1;
+
+                            // Initialize the list of neighbors
+                            let neighbors = [[x, y]];
+
+                            // For each direction, check the neighbor and recursively mark its neighbors if it's 0
+                            for (let [dx, dy] of directions) {
+                                const newX = x + dx;
+                                const newY = y + dy;
+                                neighbors = neighbors.concat(markAndFindNeighbors(newX, newY));
+                            }
+
+                            return neighbors;
+                        }
+
+                        // If the value at (i, j) is 0, start marking its neighbors and return the result
+                        if (binary2DList[i][j] === 0) {
+                            return markAndFindNeighbors(i, j);
+                        } else {
+                            // If the value at (i, j) is 1, return an empty list
+                            return [];
+                        }
+                    }
+
+                    // find the centers of all regions of vertices
+                    function findCentersOfComponents(binary2DList) {
+                        const centers = [];
+
+                        // Iterate through each element of the binary2DList
+                        for (let i = 0; i < binary2DList.length; i++) {
+                            for (let j = 0; j < binary2DList[i].length; j++) {
+                                // Only start the marking process if the element is 0
+                                if (binary2DList[i][j] === 0) {
+                                    // Call findNeighborsAndMark for each element
+                                    const markedCells = findNeighborsAndMark(i, j, binary2DList);
+                                    
+                                    // If findNeighborsAndMark returns a non-empty list, calculate the bounding box and center
+                                    if (markedCells.length > 0) {
+                                        // Find the smallest and largest i, j
+                                        let minI = Infinity, maxI = -Infinity, minJ = Infinity, maxJ = -Infinity;
+                                        
+                                        // Iterate over all marked cells to find the bounding box
+                                        for (let [x, y] of markedCells) {
+                                            minI = Math.min(minI, x);
+                                            maxI = Math.max(maxI, x);
+                                            minJ = Math.min(minJ, y);
+                                            maxJ = Math.max(maxJ, y);
+                                        }
+
+                                        // Calculate the center of the bounding box (average of min and max i, j)
+                                        const centerI = (minI + maxI) / 2;
+                                        const centerJ = (minJ + maxJ) / 2;
+
+                                        // Append the center to the centers list
+                                        centers.push({ centerI, centerJ });
+                                    }
+                                }
+                            }
+                        }
+
+                        return centers;
+                    }
+
+                    var centers = findCentersOfComponents(binary2DList)
+                    console.log('Number of vertices found:', centers.length)
+                    //console.log(centers)
+
+                    function exportJson(list, filename = 'data.json') {
+                        // Convert the list to a JSON string
+                        const jsonString = JSON.stringify(list, null, 2);  // 'null' and '2' make the output pretty-printed
+                        
+                        // Create a Blob from the JSON string
+                        const blob = new Blob([jsonString], { type: 'application/json' });
+                        
+                        // Create a temporary link element to trigger the download
+                        const link = document.createElement('a');
+                        
+                        // Create an object URL for the Blob
+                        const url = URL.createObjectURL(blob);
+                        
+                        // Set the download attribute with the filename
+                        link.href = url;
+                        link.download = filename;
+                        
+                        // Programmatically click the link to trigger the download
+                        link.click();
+                        
+                        // Revoke the object URL after the download starts
+                        URL.revokeObjectURL(url);
+                    }
+
+                    exportJson(centers)
+
+
+
+                    // Put the modified image data back to the canvas
+                    ctx.putImageData(imageData, 0, 0);
+
+                    // Redraw the image on the screen
+                    const modifiedImage = canvas.toDataURL();
+                    const imgElement = new Image();
+                    imgElement.src = modifiedImage;
+                    document.body.appendChild(imgElement);
+                };
+
+                // Set the img src to the base64-encoded data URL from FileReader
+                img.src = e.target.result;
+            };
+
+            // Start reading the file as a data URL
+            reader.readAsDataURL(file);
+        }
+    });
+</script>
+
+</body>
+</html>
